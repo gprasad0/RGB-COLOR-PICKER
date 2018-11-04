@@ -1,0 +1,70 @@
+body{
+	background-color: black;
+	margin:0;
+}
+
+h1{
+color:white;
+margin:0;
+text-align:center;
+background-color: steelblue;
+text-transform: uppercase;
+font-weight: normal;
+padding:20px 0;
+}
+
+#colorDisplay{
+	font-size: 50px;
+}
+
+.square{
+	width:30%;
+	padding-bottom: 30%;
+	background: purple;
+	margin: 1.66%;
+	float: left;
+	border-radius: 15%;
+	transition: background 0.8s;
+}
+
+#container{
+	max-width:600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#stripe{
+	background: white;
+	text-align: center;
+	height:30px;
+	color:black;
+	height:100%;
+
+}
+
+.selected{
+	color:white;
+	background:steelblue;
+}
+
+#message{
+	display:inline-block;
+	width:20%;
+	font-weight: 700;
+}
+
+button{
+	font-size: inherit;
+	border:none;
+	background:none;
+	font-weight: 700;
+	color:steelblue;
+	transition : all 0.5s;
+	outline:none;
+}
+
+button:hover{
+	color:white;
+	background:steelblue;
+
+}
